@@ -22,7 +22,7 @@ T half(T number)
 
 int half(int number)
 {
-    return static_cast<int>(round(number/2.0));
+    return static_cast<int>(round(number/2.0));//round returns a floating-point variable, cast to int to return from function
 }
 
 int main(int argc, const char * argv[])
