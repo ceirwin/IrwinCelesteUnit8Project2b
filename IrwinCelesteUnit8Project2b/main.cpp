@@ -13,8 +13,21 @@
 
 using namespace std;
 
+template <typename T>
+T half(T number)
+{
+    return number/2;
+}
+
+int half(int number)
+{
+    
+}
+
 int main(int argc, const char * argv[])
 {
     
     return 0;
 }
+
+
